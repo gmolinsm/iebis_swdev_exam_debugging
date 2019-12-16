@@ -12,7 +12,7 @@ a type char 'T'. This causes it to ignore the value provided, and leaves it blan
 # Third bug
 The switch statement is missing the "break" clauses. This is fixed by doing the following  
 ```
-switch (random.nextInt(2)) {
+switch (random.nextInt(3)) {
     case 0:
         word = new StringBuffer("Y");
         break;
