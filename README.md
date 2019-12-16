@@ -1,12 +1,13 @@
+Guillermo Molins Méndez
 # Debugging
 # First bug
 The first bug consists in the '.' being not properly interpreted by the replaceAll() function. This causes the function  
 replace all characters by '/'. In order to fix this you can either add '\\' in front of the '.' or simply use the replace()  
-function.
+function instead.
 
 # Second bug
-The second bug is found in the constructor for StringBuffer, which expects an argument of type String "" but instead receives  
-a type char ''.
+The second bug is found in the constructor for StringBuffer, which expects an argument of type String "T" but instead receives  
+a type char 'T'. This causes it to ignore the value provided, and leaves it blank.
 
 # Third bug
 The switch statement is missing the "break" clauses. This is fixed by doing the following  
